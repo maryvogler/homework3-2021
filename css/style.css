@@ -14,6 +14,7 @@ brackets or add additional rules
 
 #item3 {
 	grid-column: 1/2;
+	grid-row: 1/2;
 }
 
 #item4 {
@@ -21,6 +22,37 @@ brackets or add additional rules
 }
 
 #item5 {
-	grid-column: 3/4;
+	grid-column: 1/2;
 	grid-row: 3/4;
+}
+
+#item_a {
+	grid-column: 3 / 4;
+	grid-row: 3/4;
+
+}
+
+#item_b {
+	grid-column: 3/4;
+	grid-row: 1/3;
+
+}
+
+#item_c {
+	grid-column: 1/2;
+	grid-row: 2/3;
+
+}
+
+#item_d {
+	grid-column: 2/3;
+	grid-row: 2/3;
+
+
+}
+
+#item_e {
+	grid-column: 3/4;
+	grid-row: 2/3;
+
 }
